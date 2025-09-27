@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privisão de tempo Agora — Mini App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Previsão de tempo</h1>
+
+    <form id="searchForm" aria-label="Pesquisar cidade">
+      <label for="cityInput">Cidade</label>
+      <div class="search-row">
+        <input id="cityInput" name="city" type="search" placeholder="Ex: Luanda, Lisboa, São Paulo" required />
+        <button id="searchBtn" type="submit">Buscar</button>
+      </div>
+    </form>
+
+    <div id="status" role="status" aria-live="polite" class="status"></div>
+
+    <section id="resultado" class="resultado" hidden>
+      <header class="resultado-header">
+        <h2 id="cityName"></h2>
+        <p id="tempoLocal" class="muted"></p>
+      </header>
+
+      <div id="current" class="current">
+        <h3>Agora</h3>
+        <p id="tempoAtual"></p>
+        <p id="currentWeather"></p>
+      </div>
+
+      <div id="forecast" class="forecast">
+        <h3>Previsão (3 dias)</h3>
+        <ul id="forecastList"></ul>
+      </div>
+    </section>
+    <footer>
+      <div>
+        <p>Todos os direitos reservados - 2025 — Desenvolvido por <a href="https://github.com/auzanojoaquim" class="autor">Auzano Joaquim</a></p>
+      </div>
+    </footer>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
