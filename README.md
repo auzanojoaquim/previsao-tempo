@@ -1,8 +1,8 @@
 ![Status do Projeto](https://img.shields.io/badge/status-estável-brightgreen?style=for-the-badge)  
 
-# 🌦️ Previsão do Tempo — Mini Appum
+# 🌦️ Previsão do Tempo — Mini App
 
-Este é a versão **inicial** do aplicativo [previsao-tempo](https://auzanojoaquim.github.io/previsao-tempo/), um projeto simples desenvolvido em **HTML, CSS e JavaScript** que consulta a previsão do tempo em tempo real.  
+Um projeto simples desenvolvido em **HTML, CSS e JavaScript** que consulta a previsão do tempo em tempo real.  
 
 ---
 
