@@ -12,7 +12,7 @@ Este é um projeto simples em **JavaScript** para consultar a previsão do tempo
 - CSS
 - JavaScript (API de clima)
 
-Clica aqui para testar 👉: [Previsao-tempo](https://auzanojoaquim.github.io/Previsao-tempo/)
+Clica aqui para testar 👉: [Joaquimuzanouzanoutorrevisao-temporevisao-temporevisao-tempo](https://auzanojoaquim.github.io/previrevao-tempo/)
 
 ## 📌 Autor
 [Auzano Joaquim](https://github.com/auzanojoaquim)
